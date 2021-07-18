@@ -84,7 +84,8 @@ class Employee {
     } else {
       double multiple = (percent / 100) + 1;
       double newsalary = YearlySalary * multiple;
-      Console.WriteLine("Yearly salary updated to " + newsalary);
+      YearlySalary = newsalary;
+      Console.WriteLine("Yearly salary updated to " + YearlySalary);
     }
   }
 
